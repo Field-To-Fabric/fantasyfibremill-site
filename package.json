@@ -1,0 +1,26 @@
+{
+  "name": "regenerativefashion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evansnicholas/regenerativefashion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evansnicholas/regenerativefashion/issues"
+  },
+  "homepage": "https://github.com/evansnicholas/regenerativefashion#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.3"
+  }
+}
