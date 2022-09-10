@@ -2,7 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
 
+
+
+$blue: #25A6D9;
+$yellow: #F2CA50;
 $family-sans-serif: 'Raleway', sans-serif;
+
+$primary: $yellow;
 
 .hero {
   background-image: url("../images/rosie_and_machines_back_focus.jpg");
@@ -14,9 +20,19 @@ $family-sans-serif: 'Raleway', sans-serif;
 .f2f-link {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 28px;
-  transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
+}
+
+.f2f-link:hover {
+  transform: scale(1.02);
 }
 
 @import "../node_modules/bulma/bulma.sass";
+
+.footer {
+    background-color: $yellow;
+}
