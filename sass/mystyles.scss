@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+
+$family-sans-serif: 'Raleway', sans-serif;
+
+.hero {
+  background-image: url("../images/rosie_and_machines_back_focus.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.f2f-link {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@import "../node_modules/bulma/bulma.sass";
