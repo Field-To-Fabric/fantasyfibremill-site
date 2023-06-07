@@ -1,5 +1,5 @@
 {
-  "name": "regenerativefashion",
+  "name": "fantasyfibremill-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evansnicholas/regenerativefashion.git"
+    "url": "git+https://github.com/Field-To-Fabric/fantasyfibremill-site.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/evansnicholas/regenerativefashion/issues"
-  },
-  "homepage": "https://github.com/evansnicholas/regenerativefashion#readme",
   "devDependencies": {
     "bulma": "^0.9.4",
     "node-sass": "^7.0.3"
