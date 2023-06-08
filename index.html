@@ -7,26 +7,63 @@
 	<link rel="stylesheet" href="css/mystyles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500&display=swap"
+		rel="stylesheet">
+	<script src="js/app.js"></script>
 </head>
 
-<body class="is-family-sans-serif">
-	<section class="section hero is-fullheight">
-		<div class="hero-head"></div>
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<h1 class="title has-text-weight-bold has-text-white is-1">
-					Field to Fabric
-				</h1>
-				<p class="subtitle has-text-white">
-					We are regenerative, ultra-local farm to fabric natural fibre processing.
-				</p>
+<body class="is-family-sans-serif has-navbar-fixed-top">
+	<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="https://www.fantasyfibremill.com">
+				<img src="./images/logo_black_trans.png" height="40">
+			</a>
+
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+				<a href="#about" class="navbar-item">
+          About
+        </a>
+
+				<a href="#links" class="navbar-item">
+          Links
+        </a>
 			</div>
 		</div>
-		<div class="hero-foot"></div>
+	</nav>
+	<section class="">
+		<div class="columns">
+			<div class="column m-2">
+				<figure class="image">
+					<img src="./images/square_blue_yellow.jpg">
+				</figure>
+			</div>
+			<div class="landing-text column m-2 has-text-centered">
+				<div class="title is-1 has-text-weight-bold">Spinning straw into gold</div>
+				<div class="p-4">
+					<a target=”_blank” href="https://forms.gle/oSQaY5hKogmy7wCE8" class="subtitle is-4 sign-up button is-large is-rounded">Sign up</a>
+				</div>
+				<div class="subtitle is-4">to hear the latest news on our machine development, yarn sales and grow your own clothes adventures.</div>
+
+			</div>
+			<div>
+
 	</section>
 	<section class="section">
-		<h1 class="title has-text-centered">Who we are</h1>
+		<h1 id="about" class="title has-text-centered">Who we are</h1>
 		<div class="columns">
 			<div class="column is-8 is-offset-2">
 				<p class="content has-text-weight-semibold">Field to Fabric is a project connecting regenerative agriculture to ethical fashion, producing natural fibre yarn which
@@ -71,7 +108,7 @@
 		</div>
 	</section>
 	<section class="section">
-		<h1 class="title has-text-centered">Find out more</h1>
+		<h1 id="links" class="title has-text-centered">Find out more</h1>
 		<div class="columns">
 			<div class="column is-8 is-offset-2 has-text-centered">
 				<div class="f2f-link">
@@ -131,16 +168,16 @@
 		<div class="columns">
 			<div class="column is-8 is-offset-2 has-text-centered">
 				<div class="f2f-link is-flex is-flex-direction-row is-justify-content-center is-align-items-center">
-						<div class="pr-2">
-							<figure class="image is-48x48">
-								<img src="./images/fps_logo.jpg">
-							</figure>
-						</div>
-            <div>
-							<a href="https://www.fromfirstprincipals.com" target="_blank" rel="noopener" height="auto" class="">
-								<p class="has-text-black has-text-weight-semibold">First Principals Clothing</p>
-							</a>
-            </div>
+					<div class="pr-2">
+						<figure class="image is-48x48">
+							<img src="./images/fps_logo.jpg">
+						</figure>
+					</div>
+					<div>
+						<a href="https://www.fromfirstprincipals.com" target="_blank" rel="noopener" height="auto" class="">
+							<p class="has-text-black has-text-weight-semibold">First Principals Clothing</p>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

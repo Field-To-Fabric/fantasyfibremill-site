@@ -318,7 +318,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 code,
 pre {
@@ -7063,13 +7063,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Raleway", sans-serif !important; }
+  font-family: "Montserrat", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Raleway", sans-serif !important; }
+  font-family: "Montserrat", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Raleway", sans-serif !important; }
+  font-family: "Montserrat", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -7895,5 +7895,22 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+html {
+  scroll-behavior: smooth; }
+
 .footer {
   background-color: #F2CA50; }
+
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.sign-up {
+  border-color: #fdb11c;
+  color: #fdb11c; }
+
+.sign-up:hover {
+  border-color: white;
+  color: white;
+  background-color: #fdb11c; }
