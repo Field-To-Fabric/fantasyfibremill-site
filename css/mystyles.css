@@ -7895,5 +7895,22 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+html {
+  scroll-behavior: smooth; }
+
 .footer {
   background-color: #F2CA50; }
+
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.sign-up {
+  border-color: #fdb11c;
+  color: #fdb11c; }
+
+.sign-up:hover {
+  border-color: white;
+  color: white;
+  background-color: #fdb11c; }

@@ -33,6 +33,29 @@ $primary: $yellow;
 
 @import "../node_modules/bulma/bulma.sass";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .footer {
     background-color: $yellow;
 }
+
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.sign-up {
+  border-color: #fdb11c;
+  color: #fdb11c;
+}
+
+.sign-up:hover {
+  border-color: white;
+  color: white;
+  background-color: #fdb11c
+}
+
+
