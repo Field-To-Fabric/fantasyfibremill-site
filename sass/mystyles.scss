@@ -3,7 +3,7 @@
 @import url('ttps://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500&display=swap');
 
 $blue: #25A6D9;
-$yellow: #F2CA50;
+$yellow: #fdb11c;
 $family-sans-serif: 'Montserrat', sans-serif;
 
 $primary: $yellow;
@@ -26,6 +26,7 @@ $primary: $yellow;
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
 }
 
 .footer {
@@ -39,14 +40,14 @@ html {
 }
 
 .sign-up {
-  border-color: #fdb11c;
-  color: #fdb11c;
+  border-color: $yellow;
+  color: $yellow;
 }
 
 .sign-up:hover {
   border-color: white;
   color: white;
-  background-color: #fdb11c
+  background-color: $yellow;
 }
 
 
